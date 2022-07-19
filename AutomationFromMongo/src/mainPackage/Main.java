@@ -57,8 +57,9 @@ public class Main {
 			String title = dataSE[index].getTitle();
 			String message = dataSE[index].getMessage();
 			String status = dataSE[index].getStatus();
-		// mail API checks if exists and valid (limited to 100 checks monthly - expired 11/7/22)
-		/*try {
+		// Abstract mail API checks if exists and valid (limited to 100 checks monthly - expired 11/7/22) 
+		/*
+		try {
 			given()
 			.queryParam("api_key", "fd7a4e9d0d0245649e947b8d166ac9a3")
 			.queryParam("email", email)
@@ -72,7 +73,8 @@ public class Main {
 		    update.setError("EMAIL", index);
 			dataFR[index].setError("EMAIL");
 			continue;
-		} */
+		}
+		*/
 		// call for operations
 			op.SendEmail(email, password, sendTo, title, message, status, index);
 			//op.SignUpFacebook(f_name, l_name, emailFB, passwordFB, gender, year, month, day);
