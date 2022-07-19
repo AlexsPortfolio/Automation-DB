@@ -1,0 +1,1 @@
+[{"_id": 0, "firstName": "Ragnar", "lastName": "Lothbrok", "error": "NONE", "birthDate": "13.02.1995", "gender": "Male", "password": "Another123Pass", "email": "HateSnakeBites@outlook.com"}, {"_id": 1, "firstName": "Odin", "lastName": "Borson", "error": "NONE", "birthDate": "01.06.1990", "gender": "Male", "password": "ComplicatedPass123", "email": "ValhallaCalls@outlook.com"}]
